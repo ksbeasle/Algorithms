@@ -35,10 +35,8 @@ class Solution {
 
         int[] result = intersection(array1, array2);
 
-        //We expect '2' from result array
-        for(int num : result){
-            System.out.println(num);
-        }
+        //We expect '[2]' from result array
+       System.out.println(Arrays.toString(result));
 
         //Test case 2
         int[] array3 = {4,9,5};
@@ -46,10 +44,8 @@ class Solution {
 
         int[] result2 = intersection(array3, array4);
 
-        //We expect '9, 4' from result2 array
-        for(int num : result2){
-            System.out.println(num);
-        }
+        //We expect '[9,4]' from result2 array
+        System.out.println(Arrays.toString(result2));
     }
 }
 
