@@ -34,7 +34,7 @@ Once the res array is complete I use sort() from Arrays import to sort the array
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/squares-of-a-sorted-array/submission-details.png?raw=true)
 ---
 # Refactoring?
 Could do a manual sort like bubble sort for practice but this is fine.
