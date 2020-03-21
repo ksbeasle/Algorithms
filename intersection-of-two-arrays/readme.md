@@ -34,5 +34,8 @@ So once I have both the hash set and arraylist I go ahead and add all the number
 Now that there is an arraylist with all the intersect values we need to return an int[] array which is what the challenge calls for. Since we used the generics Integer we can't directly map int to Integer so we use streams() and mapToInt(), which will convert each Integer value inside the arraylist into the int data type and successfully create an int[] res array.
 
 ---
+# Submission Details
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/intersection-of-two-arrays/iofta.jpg?raw=true)
+---
 # Refactoring?
 None so far.
