@@ -40,7 +40,7 @@ So I create a for loop starting i @ 1 to model row 1. So with each iteration we 
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/arranging-coins/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
