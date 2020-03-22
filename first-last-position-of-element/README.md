@@ -25,7 +25,7 @@ First I created an array that would hold the result, it will be size 2 since we 
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/first-last-position-of-element/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
