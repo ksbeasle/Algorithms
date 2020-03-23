@@ -30,7 +30,7 @@ Since the challenge requested a new array *NOT* be allocated I decided to use a 
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/reverse-string/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
