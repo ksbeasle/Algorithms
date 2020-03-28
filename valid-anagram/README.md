@@ -22,7 +22,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 ---
 
 ## Thought process/Reason for approach
-
+So I first take both strings and turn them into char arrays and then used arrays.sort(). Then I create new strings out of both so that I can check if they are equal, if they are return true, else false. Also threw in a ternary if/else for fun.
 
 ---
 # Submission Details
