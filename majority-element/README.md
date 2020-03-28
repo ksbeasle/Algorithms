@@ -26,7 +26,7 @@ Some possible issues is if there might be two keys with the same max, I think it
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/majority-element/submission-details.png?raw=true)
 ---
 # Refactoring?
 This can be done I think using comparator, but it seemed outside the scope of this problem. And my approach could also be very wrong.
