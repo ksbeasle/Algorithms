@@ -26,7 +26,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/valid-anagram/submission-details.png?raw=true)
 ---
 # Refactoring?
 Possible to use streams to take away a few lines possibly a one/two liner.
