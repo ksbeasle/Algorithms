@@ -37,7 +37,7 @@ Since the method calls for the return of a List<String> I create a new list<Stri
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/fizz-buzz/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
