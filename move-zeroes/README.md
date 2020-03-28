@@ -2,17 +2,27 @@
 [LeetCode]https://leetcode.com/problems/move-zeroes/
 
 ---
+Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
+#### Example:
+
+    Input: [0,1,0,3,12]
+    Output: [1,3,12,0,0]
+
+_**Note:**_
+
+You must do this in-place without making a copy of the array.
+Minimize the total number of operations.
 
 
 ---
 
 ## Thought process/Reason for approach
-Since the method calls for the return of a List<String> I create a new list<String>, once thats done I create a for loop starting at 1 and loop all the way until I reach the *n*, always checking if *n* is a multiple of 3 and 5 first then check for 3 and 5 separately. If no multiples I convert the int to string to match the generics of the list.
+Since I could not make a copy of the array I had to try a different approach so I decided to go with a list that would hold all non-zero values to stay true to the order of the numbers, while also keeping count of the number of zeros I came across. Then I loop through the list and replace the original values in the original array. I create another variable to start at the end of the array and use a while loop to continue looping until all zeros have been added to the end of the array.
 
 ---
 # Submission Details
-![Details](https://github.com/ksbeasle/Algorithms/blob/master/fizz-buzz/submission-details.png?raw=true)
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/move-zeroes/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
