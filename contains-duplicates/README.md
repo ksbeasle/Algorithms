@@ -30,7 +30,7 @@ First I had to check if the array was empty or had at least one element, if that
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/contains-duplicates/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
