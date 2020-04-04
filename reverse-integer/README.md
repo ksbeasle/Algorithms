@@ -30,7 +30,7 @@ So this version of reverse integer was a little different. The first thing I did
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/reverse-integer/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
