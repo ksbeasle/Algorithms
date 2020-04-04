@@ -1,5 +1,5 @@
-# Fibonacci Number
-[LeetCode]https://leetcode.com/problems/single-number/
+# Fizz Buzz
+[LeetCode]https://leetcode.com/problems/fizz-buzz/
 
 ---
 Write a program that outputs the string representation of numbers from 1 to n.
