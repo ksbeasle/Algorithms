@@ -20,7 +20,7 @@ So my approach to this was to create a stack that would hold the values in rever
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/reverse-linked-list/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
