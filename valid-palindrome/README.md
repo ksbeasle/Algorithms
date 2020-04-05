@@ -23,7 +23,7 @@ To find a valid palindrome I first use regex to remove anything that isn't a num
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/valid-palindrome/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
