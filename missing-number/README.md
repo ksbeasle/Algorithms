@@ -25,7 +25,7 @@ I create a variable `actual` that will hold the actual value for that index, if 
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/missing-number/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
