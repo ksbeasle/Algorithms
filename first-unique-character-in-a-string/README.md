@@ -24,7 +24,7 @@ I use another loop starting with the first character and if that character only 
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/first-unique-character-in-a-string/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
