@@ -22,7 +22,7 @@ Since we aren't allowed to use `+` or `-` I decided to go with incrementing. Wit
 
 ---
 # Submission Details
-![Details]()
+![Details](https://github.com/ksbeasle/Algorithms/blob/master/sum-of-two-integers/submission-details.png?raw=true)
 ---
 # Refactoring?
 None so far.
