@@ -13,7 +13,7 @@ public class LinkedList{
         }
     }
 
-
+    //Add Node to linked list
     public static LinkedList insert(LinkedList list, int data){
         Node newNode = new Node(data);
         newNode.next = null;
@@ -30,6 +30,34 @@ public class LinkedList{
         return list;
     }
 
+    //Delete a Node
+    public static LinkedList deleteNode(LinkedList list, int key){
+        Node prev = null;
+        Node currentNode = list.head;
+        if(list.head == null){
+            System.out.println("--- LINKED LIST IS EMPTY ---");
+            return list;
+        }
+        if(currentNode != null && currentNode.data == key){
+            list.head = currentNode.next;
+            System.out.println("--- NODE DELETED FOR KEY --- " + key);
+            return list;
+        }
+        while(currentNode != null && currentNode.data != key){
+            prev = currentNode;
+            currentNode = currentNode.next;
+        }
+        if(currentNode == null){
+            System.out.println("--- NODE COULD NOT BE FOUND ---");
+            return list;
+        }else{
+            prev.next = currentNode.next;
+            return list;
+        }
+        
+    }
+
+    //Traverse linked list
     public static void printList(LinkedList list){
         Node currentNode = list.head;
         System.out.println("LINKED LIST DATA -- ");
@@ -37,16 +65,27 @@ public class LinkedList{
             System.out.println(currentNode.data);
             currentNode = currentNode.next;
         }
+        System.out.println("--------------------");
     }
 
     public static void main(String[] args){
         LinkedList list = new LinkedList();
+        LinkedList emptyList = new LinkedList();
 
         //INSERT examples
         list = insert(list, 1);
         list = insert(list, 2);
         list = insert(list, 3);
+        list = insert(list, 4);
+        list = insert(list, 5);
+        list = insert(list, 6);
 
+        //Before deletion
+        printList(list);
+
+        //After deletion
+        //delete 5
+        deleteNode(list, 5);
         printList(list);
 
     }
