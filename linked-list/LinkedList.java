@@ -12,7 +12,24 @@ public class LinkedList{
             data = x;
         }
     }
+    //Size of linked list
+    public static int Size(LinkedList list){
+        Node curr = list.head;
+        int size = 0;
+        while(curr != null){
+            size++;
+            curr = curr.next;
+        }
+        return size;
+    }
 
+    //is empty
+    public static boolean isEmpty(LinkedList list){
+        if(list.head == null){
+            return true;
+        }
+        return false;
+    }
     //Add Node to linked list
     public static LinkedList insert(LinkedList list, int data){
         Node newNode = new Node(data);
@@ -30,6 +47,7 @@ public class LinkedList{
         return list;
     }
 
+
     //Delete a Node
     public static LinkedList deleteNode(LinkedList list, int key){
         Node prev = null;
@@ -43,6 +61,7 @@ public class LinkedList{
             System.out.println("--- NODE DELETED FOR KEY --- " + key);
             return list;
         }
+        //Once we find the Node that contains the key we will jump out of this
         while(currentNode != null && currentNode.data != key){
             prev = currentNode;
             currentNode = currentNode.next;
@@ -55,6 +74,37 @@ public class LinkedList{
             return list;
         }
         
+    }
+
+    //Delete node at given position
+    public static LinkedList deleteNodeAtPosition(LinkedList list, int pos){
+            Node curr = list.head;
+            Node prev = null;
+            int index = 1;
+            if(pos == 0){
+                list.head = curr.next;
+                System.out.println("Node removed");
+                return list;
+            }
+            if(pos > Size(list)){
+                System.out.println("Position does not exist in list");
+                return list;
+            }
+            //We will keep iterating until we match index with pos
+            while(pos != index){
+                prev = curr;
+                curr = curr.next;
+                index++;
+            }
+
+            if(curr == null){
+                System.out.println("Position does not exist in list");
+            }
+            prev.next = curr.next;
+
+
+
+        return list;
     }
 
     //Traverse linked list
@@ -72,6 +122,9 @@ public class LinkedList{
         LinkedList list = new LinkedList();
         LinkedList emptyList = new LinkedList();
 
+        //is empty
+        System.out.println(isEmpty(list));
+
         //INSERT examples
         list = insert(list, 1);
         list = insert(list, 2);
@@ -79,13 +132,19 @@ public class LinkedList{
         list = insert(list, 4);
         list = insert(list, 5);
         list = insert(list, 6);
-
+        
+      
+        System.out.println("Size of list: "+Size(list));
         //Before deletion
         printList(list);
 
         //After deletion
         //delete 5
         deleteNode(list, 5);
+        printList(list);
+
+        //After pos deletion
+        deleteNodeAtPosition(list, 2);
         printList(list);
 
     }
